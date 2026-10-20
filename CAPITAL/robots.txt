@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yourfirstcapital.netlify.app/sitemap.xml
