@@ -11,11 +11,13 @@ a{color:inherit}
 h1,h2,h3{font-weight:900;line-height:1.08;margin:0;letter-spacing:-.02em}
 h1{font-size:clamp(2.4rem,6.5vw,4.6rem)}
 h2{font-size:clamp(1.7rem,4vw,2.6rem);margin-bottom:18px}
+h3{font-size:1.12rem}
 .stroke{background:linear-gradient(var(--gold),var(--gold)) 0 100%/100% .16em no-repeat;padding-bottom:.06em}
 .btn{display:inline-block;background:var(--gold);color:var(--gold-ink);font-weight:800;text-decoration:none;padding:16px 30px;border-radius:6px;font-size:1.02rem;transition:transform .15s}
 .btn:hover{transform:translateY(-2px)}
 .hero{padding:56px 0 72px}
 .hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center}
+.eyebrow{font-size:.78rem;letter-spacing:.09em;text-transform:uppercase;font-weight:800;color:var(--muted);margin:0 0 16px}
 .lead{font-size:1.2rem;color:var(--muted);max-width:34em;margin:22px 0 30px}
 .note{font-size:.9rem;color:var(--muted);margin-top:14px}
 .cover{border-radius:8px;box-shadow:0 24px 60px rgba(0,0,0,.28);width:100%;max-width:460px;margin:0 auto}
@@ -35,12 +37,15 @@ section{padding:72px 0}
 .sprint div:last-child{border-right:0}
 .sprint b{display:block;font-weight:900;font-size:1.05rem;margin-bottom:6px}
 .sprint span{color:var(--muted);font-size:.95rem}
+.faq{max-width:820px;margin-top:28px}
+.faq h3{margin:26px 0 8px}
+.faq p{margin:0;padding-bottom:20px;border-bottom:1px solid var(--line);color:var(--muted)}
 .about{display:grid;grid-template-columns:auto 1fr;gap:28px;align-items:center}
 .about img{width:120px;border-radius:6px}
 .final{text-align:center}
 .final h2{max-width:14em;margin-left:auto;margin-right:auto}
 .final .sub{margin:0 auto 30px}
-footer{padding:28px 0 40px;font-size:.85rem;color:var(--muted);text-align:center}
+footer{padding:28px 22px 40px;font-size:.85rem;color:var(--muted);text-align:center}
 @media (max-width:820px){
  .hero .wrap{grid-template-columns:1fr;gap:36px}
  .cover{max-width:340px}
@@ -50,4 +55,14 @@ footer{padding:28px 0 40px;font-size:.85rem;color:var(--muted);text-align:center
  .sprint div:nth-child(-n+2){border-bottom:1px solid var(--line)}
  section{padding:52px 0}
  .btn{display:block;text-align:center}
+}
+@media (max-width:480px){
+ body{font-size:16px}
+ .hero{padding:38px 0 48px}
+ .sprint{grid-template-columns:1fr}
+ .sprint div{border-right:0;border-bottom:1px solid var(--line)}
+ .sprint div:last-child{border-bottom:0}
+ .sprint div:nth-child(2){border-bottom:1px solid var(--line)}
+ .about{grid-template-columns:1fr;gap:18px}
+ .about img{width:100px}
 }
