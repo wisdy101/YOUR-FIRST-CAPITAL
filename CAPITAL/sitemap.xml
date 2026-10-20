@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://yourfirstcapital.netlify.app/</loc>
-  </url>
+  <url><loc>https://yourfirstcapital.netlify.app/</loc></url>
+  <url><loc>https://yourfirstcapital.netlify.app/how-to-raise-startup-capital.html</loc></url>
+  <url><loc>https://yourfirstcapital.netlify.app/ask-family-friends-for-startup-funding.html</loc></url>
+  <url><loc>https://yourfirstcapital.netlify.app/startup-funding-loan-vs-equity.html</loc></url>
+  <url><loc>https://yourfirstcapital.netlify.app/how-much-startup-capital-to-raise.html</loc></url>
 </urlset>
